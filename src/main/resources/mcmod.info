@@ -1,0 +1,16 @@
+[
+{
+  "modid": "shiogumars_with_list",
+  "name": "ShiogumarsWishList",
+  "description": "MOD for me to add what I want.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Shiogumar"],
+  "credits": "What should I write credits?",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

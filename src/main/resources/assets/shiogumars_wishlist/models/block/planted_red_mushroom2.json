@@ -1,0 +1,6 @@
+{
+  "parent": "shiogumars_wishlist:block/planted_mushroom2",
+  "textures": {
+    "cross": "blocks/mushroom_red"
+  }
+}

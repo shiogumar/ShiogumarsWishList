@@ -1,0 +1,52 @@
+{
+    "multipart": [
+        {
+            "when": { "facing": "north" },
+            "apply": { "model": "shiogumars_wishlist:wood_planted_mushroom" }
+        },
+        {
+            "when": { "facing": "east" },
+           "apply": { "model": "shiogumars_wishlist:wood_planted_mushroom", "y": 90 }
+        },
+        {
+            "when": { "facing": "south" },
+            "apply": { "model": "shiogumars_wishlist:wood_planted_mushroom", "y": 180 }
+        },
+        {
+            "when": { "facing": "west" },
+            "apply": { "model": "shiogumars_wishlist:wood_planted_mushroom", "y": 270 }
+        },
+        {
+            "when": { "facing": "north", "age": "1" },
+            "apply": { "model": "shiogumars_wishlist:planted_brown_mushroom1" }
+        },
+        {
+            "when": { "facing": "east", "age": "1" },
+            "apply": { "model": "shiogumars_wishlist:planted_brown_mushroom1", "y": 90 }
+        },
+        {
+            "when": { "facing": "south", "age": "1" },
+            "apply": { "model": "shiogumars_wishlist:planted_brown_mushroom1", "y": 180 }
+        },
+        {
+            "when": { "facing": "west", "age": "1" },
+            "apply": { "model": "shiogumars_wishlist:planted_brown_mushroom1", "y": 270 }
+        },
+        {
+            "when": { "facing": "north", "age": "2" },
+            "apply": { "model": "shiogumars_wishlist:planted_brown_mushroom2" }
+        },
+        {
+            "when": { "facing": "east", "age": "2" },
+           "apply": { "model": "shiogumars_wishlist:planted_brown_mushroom2", "y": 90 }
+        },
+        {
+            "when": { "facing": "south", "age": "2" },
+            "apply": { "model": "shiogumars_wishlist:planted_brown_mushroom2", "y": 180 }
+        },
+        {
+            "when": { "facing": "west", "age": "2" },
+            "apply": { "model": "shiogumars_wishlist:planted_brown_mushroom2", "y": 270 }
+        }
+    ]
+}

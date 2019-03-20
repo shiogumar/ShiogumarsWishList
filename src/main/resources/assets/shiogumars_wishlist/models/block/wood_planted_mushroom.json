@@ -1,0 +1,56 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "shiogumars_wishlist:blocks/wood_planted_mushroom",
+    "end": "shiogumars_wishlist:blocks/wood_planted_mushroom_top",
+    "side": "shiogumars_wishlist:blocks/wood_planted_mushroom"
+  },
+  "elements": [
+    {
+      "from": [ 0, 0, 10 ],
+      "to": [ 16, 6, 16 ],
+      "faces": {
+        "down": { "uv": [ 0, 0, 6, 16 ], "texture": "#side", "rotation": 90 },
+        "up": { "uv": [ 0, 0, 6, 16 ], "texture": "#side", "rotation": 90 },
+        "north": { "uv": [ 6, 0, 12, 16 ], "texture": "#side", "rotation": 90 },
+        "east": { "uv": [ 4, 4, 12, 12 ], "texture": "#end" },
+        "south": { "uv": [ 6, 0, 12, 16 ], "texture": "#side", "rotation": 90 },
+        "west": { "uv": [ 4, 4, 12, 12 ], "texture": "#end" }
+      }
+    },
+    {
+      "from": [ 1, 4, 1 ],
+      "to": [ 7, 10, 15 ],
+      "rotation": {
+        "origin": [ 8, 7, 8 ],
+        "axis": "x",
+        "angle": -45
+      },
+      "faces": {
+        "down": { "uv": [ 0, 0, 6, 16 ], "texture": "#side" },
+        "up": { "uv": [ 0, 0, 6, 16 ], "texture": "#side" },
+        "north": { "uv": [ 4, 4, 12, 12 ], "texture": "#end" },
+        "east": { "uv": [ 6, 0, 12, 16 ], "texture": "#side", "rotation": 90 },
+        "south": { "uv": [ 4, 4, 12, 12 ], "texture": "#end" },
+        "west": { "uv": [ 6, 0, 12, 16 ], "texture": "#side", "rotation": 90 }
+      }
+    },
+    {
+      "from": [ 9, 4, 1 ],
+      "to": [ 15, 10, 15 ],
+      "rotation": {
+        "origin": [ 8, 7, 8 ],
+        "axis": "x",
+        "angle": -45
+      },
+      "faces": {
+        "down": { "uv": [ 6, 0, 12, 16 ], "texture": "#side" },
+        "up": { "uv": [ 6, 0, 12, 16 ], "texture": "#side" },
+        "north": { "uv": [ 4, 4, 12, 12 ], "texture": "#end" },
+        "east": { "uv": [ 0, 0, 6, 16 ], "texture": "#side", "rotation": 90 },
+        "south": { "uv": [ 4, 4, 12, 12 ], "texture": "#end" },
+        "west": { "uv": [ 0, 0, 6, 16 ], "texture": "#side", "rotation": 90 }
+      }
+    }
+  ]
+}
